@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="estadias.InterfaceEstadia" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/estadias/InterfaceEstadia.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="138" x="1905" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="hotel.HotelFacade" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hotel/HotelFacade.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="241" x="1086" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="exceptions.HospedeException" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/HospedeException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="152" x="1126" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="restaurante.OrdenaPreco" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/restaurante/OrdenaPreco.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="145" x="67" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="hospedes.CartaoFidelidade" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/CartaoFidelidade.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="179" x="330" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="hospedes.TipoCartaoFidelidadeIF" 
+    project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/TipoCartaoFidelidadeIF.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="181" x="439" y="1539"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="quarto.Quarto" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/quarto/Quarto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="202" x="2083" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="exceptions.SistemaException" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/SistemaException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="147" x="1422" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="hotel.HotelControllerIF" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hotel/HotelControllerIF.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="259" x="284" y="811"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="hospedes.Premium" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/Premium.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="223" x="67" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="hotel.HotelController" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hotel/HotelController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="305" x="760" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="restaurante.OrdenaNome" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/restaurante/OrdenaNome.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="145" x="252" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="estadias.Estadia" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/estadias/Estadia.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="142" x="1994" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="exceptions.StringInvalidaException" 
+    project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/StringInvalidaException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="173" x="1318" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="restaurante.Prato" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/restaurante/Prato.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="153" x="1101" y="1539"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="hospedes.Hospede" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/Hospede.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="192" x="583" y="811"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="hospedes.HospedeIF" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/HospedeIF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="179" x="1075" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="hospedes.Vip" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/Vip.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="223" x="549" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="exceptions.QuartoException" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/QuartoException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="142" x="1531" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="exceptions.RefeicaoException" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/RefeicaoException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="152" x="1713" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="exceptions.RemocaoInvalidaException" 
+    project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/RemocaoInvalidaException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="190" x="437" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="hospedes.Padrao" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hospedes/Padrao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="223" x="812" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="restaurante.CardapioController" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/restaurante/CardapioController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="251" x="1086" y="811"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="restaurante.Refeicao" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/restaurante/Refeicao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="234" x="1294" y="1539"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="hotel.Transacao" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/hotel/Transacao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="231" x="815" y="811"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="26" language="java" name="quarto.TipoDeQuarto" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/quarto/TipoDeQuarto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="169" x="667" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="27" language="java" name="exceptions.ValorInvalidoException" 
+    project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/exceptions/ValorInvalidoException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="170" x="876" y="-133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="restaurante.Menu" project="115210590_Dales_Paulo_Tarsila_Thaynnara" 
+    file="/115210590_Dales_Paulo_Tarsila_Thaynnara/src/restaurante/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="149" x="1294" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="31" name="menu"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="34">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="35" name="adm"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="38" name="historicoHotel"/>      
+      <multiplicity id="39" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="41">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="42" name="cartao"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="44">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="45">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="50">    
+    <bendpoint x="1095" y="330"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="51" name="cardapio"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="54" name="tipoCartao"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="58">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="59" name="quarto"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="61">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="62">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="63" name="cardapio"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="66" name="hospedes"/>      
+      <multiplicity id="67" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="69" name="listaPratos"/>      
+      <multiplicity id="70" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,56 @@
+iniciaSistema
+
+############################################
+# agora vamos testar a conversao de pontos #
+# e a integridade do tipo de fidelidade.   #
+# Lembrando que ateh aqui:                 #
+# - Sven       : 1570 (VIP)                #
+# - Ines Brasil:  905 (Premium)            #
+# - Agnetha    :   20 (Normal)             #
+# - Nobel      :   30 (Normal)             #
+#                                          #
+############################################
+
+expect "1570" getInfoHospede id="sven@sverige.se" atributo="Pontos"
+expect "905" getInfoHospede id="ines@brasil.com.br" atributo="Pontos"
+expect "20" getInfoHospede id="agnetha@abba.se" atributo="Pontos"
+expect "50" getInfoHospede id="nobel@got.se" atributo="Pontos"
+
+expect "R$3,00" convertePontos id="nobel@got.se" qtdPontos=30
+expect "R$33,50" convertePontos id="ines@brasil.com.br" qtdPontos=105
+expect "R$52,50" convertePontos id="sven@sverige.se" qtdPontos=70
+
+expect "1500" getInfoHospede id="sven@sverige.se" atributo="Pontos"
+expect "800" getInfoHospede id="ines@brasil.com.br" atributo="Pontos"
+expect "20" getInfoHospede id="agnetha@abba.se" atributo="Pontos"
+expect "20" getInfoHospede id="nobel@got.se" atributo="Pontos"
+
+expect "R$45,77" realizaPedido hospede="ines@brasil.com.br" itemMenu="Delicia da serra"
+expect "R$43,23" realizaPedido hospede="sven@sverige.se" itemMenu="Delicia da serra"
+
+expect "1525" getInfoHospede id="sven@sverige.se" atributo="Pontos"
+expect "815" getInfoHospede id="ines@brasil.com.br" atributo="Pontos"
+expect "20" getInfoHospede id="agnetha@abba.se" atributo="Pontos"
+expect "20" getInfoHospede id="nobel@got.se" atributo="Pontos"
+
+expect "R$750,00" convertePontos id="sven@sverige.se" qtdPontos=1000
+expect "R$160,00" convertePontos id="ines@brasil.com.br" qtdPontos=500
+
+expect "525" getInfoHospede id="sven@sverige.se" atributo="Pontos"
+expect "315" getInfoHospede id="ines@brasil.com.br" atributo="Pontos"
+expect "20" getInfoHospede id="agnetha@abba.se" atributo="Pontos"
+expect "20" getInfoHospede id="nobel@got.se" atributo="Pontos"
+
+# Ines voltou a ser Normal e Sven voltou a ser Premium
+expect "R$50,85" realizaPedido hospede="ines@brasil.com.br" itemMenu="Delicia da serra"
+expect "R$45,77" realizaPedido hospede="sven@sverige.se" itemMenu="Delicia da serra"
+
+expect "540" getInfoHospede id="sven@sverige.se" atributo="Pontos"
+expect "320" getInfoHospede id="ines@brasil.com.br" atributo="Pontos"
+expect "20" getInfoHospede id="agnetha@abba.se" atributo="Pontos"
+expect "20" getInfoHospede id="nobel@got.se" atributo="Pontos"
+
+expect "21" consultaTransacoes atributo="Quantidade"
+expect "R$11688,09" consultaTransacoes atributo="Total"
+
+fechaSistema
